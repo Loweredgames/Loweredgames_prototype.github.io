@@ -2,45 +2,25 @@ _<font color="red"><center>(aggiornare sempre la barra della bossbar)</center>_<
 
 ------------
 
+**<center>Guida e Informazioni:</center>**
+
+Le mappe Prototype servono come test e sono sempre aggiornate alla versione piu stabile. in questo sito web le pagine sono delle bozze e vengono utilizzate solo a scopo dimostrativo. il sistema delle versioni utilizza il diff che in informatica significa:
+
+> In informatica, l'utilità diff è uno strumento di confronto dei dati che calcola e visualizza le differenze tra il contenuto dei file. A differenza delle nozioni di distanza di modifica utilizzate per altri scopi, diff è orientato alla linea piuttosto che al carattere, ma è come la distanza di Levenshtein in quanto cerca di determinare il più piccolo insieme di eliminazioni e inserimenti per creare un file dall'altro. L'utilità visualizza le modifiche in uno dei diversi formati standard, in modo che sia gli esseri umani che i computer possano analizzare le modifiche e utilizzarle per l'applicazione di patch. 
+
+*Wikipedia*
+
+
 **<center>ESEMPIO:</center>**
 
-
-- **VERSION:**(Nome Edizione JE o BE),(Versione di Minecraft),(Versione della mappa),(Nome progetto)-(numero maggiore),(numero minore),(per LTS aggiungere il nome della versione: "Maintenance Update - LTS", e aggiungere il suffisso "_LTS" solo nelle versioni LTS)
-- - aggiornare solo in Github aggiungendo le modifiche in desc, aggiungere il n. di versione solo in Github (non nei file)
-
-- - **SOLO LTS**: aggiungere sempre seconda versione rilasciata in basso come una catena. da mettere in changelog-loader.js. aggiungere solo versione della mappa e la data con la visibilita.
-
-- - - **JE-1.20.6-1.0.0-Redstonecraft:1.0.1_LTS (prima da aggiungere come titolo)**
-
-- - - **_aggiungere immagine_**
-
-- - - aggiungere i problemi o le modifiche anche dentro i commit.
-
-- - - **JE-1.20.6-1.0.0-Redstonecraft:1.0.2_LTS (seconda in basso dopo l'avviso)**
-
-- - - **_aggiungere immagine_**
-- - - aggiungere i problemi o le modifiche anche dentro i commit.
-
-- - **SOLO RELEASE_CANDIDATE**: aggiornare sempre <ins>"latest branch"</ins> per il backup
-
-- - per le multi versioni aggiungere un > nella sezione versioni di Minecraft: **_ESEMPIO: JE-1.20.1>1.20.6-2.1.0-Redstonecraft:BUILDING:03.12.2050a_**
-
-
-- **RELEASE_CANDIDATE**:(Nome Edizione JE o BE),(Versione di Minecraft),(Versione della mappa),(Nome progetto):RELEASE_CANDIDATE-(numero),(versione aggiuntiva)
-
-
-- **PRE_RELEASE**:(Nome Edizione JE o BE),(Versione di Minecraft),(Versione della mappa),(Nome progetto):PRE_RELEASE-(numero),(versione aggiuntiva)
-
-
-- **BUILDING**:(Nome Edizione JE o BE),(Versione di Minecraft),(Versione della mappa),(Nome progetto):BUILDING:(giorno,mese,anno,lettera correzioni),(versione aggiuntiva)
-
-
-- **NIGHTLY_BUILDING**:(Nome Edizione JE o BE),(Nome progetto):NIGHTLY_BUILDING:(giorno,mese,anno e poi punto),(numero maggiore),(orario),(lettera correzioni)
+- **BUILDING_PROTOTYPE**:(Nome Edizione JE o BE),(Nome progetto):BUILDING_PROTOTYPE:(giorno,mese,anno e poi punto)diff_(numero maggiore),(orario),(lettera correzioni)_Branch
 
 
 ---------
 
 **<center>PAROLE CHIAVI:</center>**
+
+# _demonstration_: dimostrazione o concept art
 
 # _textures and resources_: tutte le texture che vengono dal resources pack
 
@@ -62,15 +42,7 @@ _<font color="red"><center>(aggiornare sempre la barra della bossbar)</center>_<
 
 ----------
 
-**ESEMPIO**: JE-1.20.6-1.0.0-Redstonecraft:1.0.0_LTS
-
-**ESEMPIO**: BE-1.20.6-1.0.0-Redstonecraft:RELEASE_CANDIDATE:1_4
-
-**ESEMPIO**: JE-1.20.6-1.0.0-Redstonecraft:PRE_RELEASE:1_2
-
-**ESEMPIO**: JE-1.20.6-1.0.0-Redstonecraft:BUILDING:03.12.2030a_1
-
-**ESEMPIO**: JE-Redstonecraft:NIGHTLY_BUILDING:03.12.2030.112020a_1
+**ESEMPIO**: JE-Redstonecraft:BUILDING_PROTOTYPE:03.12.2030.diff_112020a_main
 
 -----------
 

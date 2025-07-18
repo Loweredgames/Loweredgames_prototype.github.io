@@ -1,3 +1,3 @@
-# Minecraft Changelog Website
+# Minecraft Prototype Website
 
-Sito web per i changelog della custom map Minecraft.
+Sito web per i Prototype delle mie custom map di Minecraft.

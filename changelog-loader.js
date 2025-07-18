@@ -9,111 +9,7 @@ window.changelogList = [
         image: 'images/posts/Voidblock/7.0.1.png',
         file: 'Voidblock/Voidblock7.0.1.md',
         tags: ['stable','maintenance'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21>1.21.5-7.0.0-Voidblock:7.0.0',
-        date: '30.06.2025',
-        image: 'images/posts/Voidblock/Logo Voidblock 7.0.0.png',
-        file: 'Voidblock/Voidblock7.0.0.md',
-        tags: ['stable'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21>1.21.5-7.0.0-Voidblock:RELEASE_CANDIDATE 2',
-        date: '16.06.2025',
-        image: 'images/posts/Voidblock/Logo Voidblock 7.0.0.png',
-        file: 'Voidblock/je-1.21_1.21.5-7.0.0-voidblock-rc2.md',
-        tags: ['release-candidate'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21>1.21.5-7.0.0-Voidblock:RELEASE_CANDIDATE 1',
-        date: '27.05.2025',
-        image: 'images/posts/Voidblock/Logo Voidblock 7.0.0.png',
-        file: 'Voidblock/je-1.21_1.21.5-7.0.0-voidblock-rc1.md',
-        tags: ['release-candidate'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21>1.21.5-7.0.0-Voidblock:PRE-RELEASE 1',
-        date: '20.05.2025',
-        image: 'images/posts/Voidblock/pre1.png',
-        file: 'Voidblock/je-1.21_1.21.5-7.0.0-voidblock-pre-release-1.md',
-        tags: ['pre-release'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21>1.21.5-7.0.0-Voidblock:BUILDING:29.04.2025a',
-        date: '29.04.2025',
-        image: 'images/posts/Voidblock/29.04.2025.png',
-        file: 'Voidblock/voidblock_1.21.5_7.0.0_building29.04.2025a.md',
-        tags: ['building'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21>1.21.5-7.0.0-Voidblock:BUILDING:23.04.2025a',
-        date: '23.04.2025',
-        image: 'images/posts/Voidblock/2024-09-23_11.21.46.png',
-        file: 'Voidblock/voidblock_1.21.5_7.0.0_building-23.04.2025.md',
-        tags: ['building'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:6.1.0',
-        date: '15.04.2025',
-        image: 'images/posts/Voidblock/je-1.21.4-6.1.0-skyblockce-building-pre1.png',
-        file: 'Voidblock/je-1.21.4-6.1.0-skyblockce.md',
-        tags: ['stable'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:PRE-RELEASE 1',
-        date: '29.03.2025',
-        image: 'images/posts/Voidblock/je-1.21.4-6.1.0-skyblockce-building-pre1.png',
-        file: 'Voidblock/je-1.21.4-6.1.0-skyblockce-building-pre1.md',
-        tags: ['pre-release'],
-        visible: true
-    },
-    {
-        title: 'Nuova Era!',
-        date: '24.03.2025',
-        image: 'images/posts/Website/welcome!.png',
-        file: 'Website/benvenuti.md',
-        tags: ['website','minecraft-news'],
-        visible: true
-    },
-    {
-        title: 'Migrazione al Nuovo Sito Web',
-        date: '24.03.2025',
-        image: 'images/posts/Website/alba.png',
-        file: 'Website/migrazione.md',
-        tags: ['website'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:BUILDING:22.02.2025a',
-        date: '22.02.2025',
-        image: 'images/posts/Voidblock/devlatest.png',
-        file: 'Voidblock/je-1.21.4-6.1.0-skyblockce-building-22.02.2025a.md',
-        tags: ['building'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:6.0.0',
-        date: '12.01.2025',
-        image: 'images/posts/Voidblock/6.0.0latest.png',
-        file: 'Voidblock/6.0.0latest.md',
-        tags: ['stable'],
-        visible: true
-    },
-    {
-        title: 'JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:RELEASE-CANDIDATE-2',
-        date: '12.01.2025',
-        image: 'images/posts/Voidblock/6.0.0latest.png',
-        file: 'Voidblock/JE-1.21-1.21.1-6.0.0-skyblockce-release-candidate-2.md',
-        tags: ['release-candidate'],
-        visible: true
+        visible: false
     },
     {
         title: 'JE-1.20.6-5.3.X-Skyblock_Classic_Edition:5.3.X_LTS Maintenance Update - LTS',
@@ -121,7 +17,7 @@ window.changelogList = [
         image: 'images/posts/Voidblock/LTS_latest.png',
         file: 'Voidblock/LTS_5.3.X/5.3.X_LTS.md',
         tags: ['lts','stable','maintenance'],
-        visible: true,
+        visible: false,
         maintenanceVersions: [
             {
                 version: '5.3.2_LTS???',
@@ -137,67 +33,6 @@ window.changelogList = [
             }
         ]
     },
-    {
-        title: 'JE-1.20.6-5.3.0-Skyblock_Classic_Edition:5.3.0_LTS',
-        date: '27.09.2024',
-        image: 'images/posts/Voidblock/LTS_latestv.png',
-        file: 'Voidblock/5.3.0_LTS.md',
-        tags: ['lts','stable'],
-        visible: true
-    },
-
-
-// Post in Lavorazione (drafts)
-
-    {
-        title: 'JE-1.20.6-1.0.0-Edge:BUILDING:23.10.2024a - Draft',
-        date: '???',
-        image: 'images/drafts/draft.png',
-        file: 'drafts/Edge/je-1.20.6-1.0.0-edge-building23.10.2024a.md',
-        tags: ['building','drafts'],
-        visible: false
-    },
-    {
-        title: 'JE-1.17.1-1.0.0-Apocalisse:BUILDING:16.10.2022a - Draft',
-        date: '???',
-        image: 'images/posts/Apocalisse/first.png',
-        file: 'drafts/Apocalisse/je-1.17.1-1.0.0-apocalisse-building16.10.2022a.md',
-        tags: ['building','drafts'],
-        visible: false
-    },
-    {
-        title: 'JE-1.20.4-Dimension_Infinity:BUILDING:12.12.2023a - Draft',
-        date: '???',
-        image: 'images/drafts/draft.png',
-        file: 'drafts/Dimension_Infinity/je-1.20.6-1.0.0-dimension_infinity-building12.12.2023a.md',
-        tags: ['building','drafts'],
-        visible: false
-    },
-    {
-        title: 'JE-1.20.2-Dungeoncraft:BUILDING:30.08.2023a - Draft',
-        date: '???',
-        image: 'images/drafts/draft.png',
-        file: 'drafts/Dungeoncraft/je-1.20.6-1.0.0-dungeoncraft-building30.08.2023a.md',
-        tags: ['building','drafts'],
-        visible: false
-    },
-    {
-        title: 'JE-1.19.4-Infernicus:BUILDING:18.10.2023a - Draft',
-        date: '???',
-        image: 'images/drafts/draft.png',
-        file: 'drafts/Infernicus/je-1.19.4-1.0.0-Infernicus-building18.10.2023a.md',
-        tags: ['building','drafts'],
-        visible: false
-    },
-    {
-        title: 'JE-1.19.4-BowShot:BUILDING:07.03.2023a - Draft',
-        date: '???',
-        image: 'images/drafts/draft.png',
-        file: 'drafts/BowShot/je-1.19.4-1.0.0-bowShot-building07.03.2023a.md',
-        tags: ['building','drafts'],
-        visible: false
-    },
-
 
 // Drafts Template
 
