@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- Meta tags per la codifica e il viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loweredgames Changelog Maps - Versions</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+    <!-- Collegamenti a fogli di stile e librerie -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="translate.js"></script>
+</head>
+<body>
+    <!-- Header con titolo cliccabile -->
+    <header>
+        <h1 onclick="window.location.href='index.html'">Loweredgames Changelog Maps</h1>
+    </header>
+
+    <!-- Contenuto principale -->
+    <main>
+        <!-- Intestazione del post con immagine e metadati -->
+        <div id="post-header" class="post-header"></div>
+        <!-- Contenuto del changelog -->
+        <div id="changelog" class="changelog"></div>
+        
+        <!-- Sezione commenti GitHub -->
+        <div class="comments-section">
+            <h3>Commenti:</h3>
+            <div id="giscus-container"></div>
+        </div>
+
+        <!-- Aggiungo il pulsante home -->
+        <div class="home-button-container">
+            <a href="index.html" class="home-button">Torna alla Home</a>
+        </div>
+    </main>
+
+        <!-- Sezione Discord -->
+        <section class="discord-section">
+            <div class="discord-container">
+                <h2>Unisciti alla mia community Discord!</h2>
+                <p>Per supporto o problemi, aggiornamenti e discussioni in tempo reale...</p>
+                <a href="https://discord.gg/T6PHxhznJ6" class="discord-button">
+                    <img src="images/social_logo/Discord.png" alt="Discord">
+                    Entra nel Server
+                </a>
+            </div>
+        </section>
+
+    <!-- Footer con copyright e Link-->
+    <footer>
+        <div class="footer-content">
+            <h3>Link:</h3>
+            <div class="social-icons">
+                <a href="https://github.com/Loweredgames/" class="social-icon" title="GitHub">
+                    <img src="images/social_logo/Github.png" alt="GitHub">
+                </a>
+                <a href="https://modrinth.com/user/Loweredgames/" class="social-icon" title="Modrinth">
+                    <img src="images/social_logo/Modrinth.png" alt="Modrinth">
+                </a>
+                <a href="https://www.planetminecraft.com/member/loweredgames/" class="social-icon" title="PlanetMinecraft">
+                    <img src="images/social_logo/PlanetMinecraft.png" alt="PlanetMinecraft">
+                </a>
+                <a href="https://www.curseforge.com/members/loweredgamesdev/projects/" class="social-icon" title="CurseForge">
+                    <img src="images/social_logo/CursedForge.png" alt="CurseForge">
+                </a>
+                <a href="https://smithed.net/Loweredgames/" class="social-icon" title="Smithed">
+                    <img src="images/social_logo/Smithed.png" alt="Smithed">
+                </a>
+                <a href="https://crowdin.com/profile/" class="social-icon" title="Crowdin">
+                    <img src="images/social_logo/Crowdin.png" alt="Crowdin">
+                </a>
+            </div>
+            <p>&copy; <a href="license.html">LICENZE Loweredgames</a> - Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <!-- Script per il caricamento dei dati -->
+    <script src="changelog-loader.js"></script>
+    <script>
+        // Configurazione del parser markdown
+        marked.setOptions({
+            headerIds: false,
+            mangle: false,
+            headerPrefix: '',
+            breaks: true,
+            sanitize: false // Permette HTML nel markdown
+        });
+
+        // Recupera il parametro file dall'URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const file = urlParams.get('file');
+        
+        if (file) {
+            // Cerca i metadata del changelog
+            const metadata = window.changelogList.find(c => c.file === file);
+            const defaultImage = 'https://placehold.co/800x400/1a1a1a/ffffff/png?text=No+Image';
+            
+            // Se esistono metadata, mostra l'intestazione del post
+            if (metadata) {
+                document.title = `${metadata.title} - Changelog`;
+                document.getElementById('post-header').innerHTML = `
+                    <div class="post-thumbnail">
+                        <img src="${metadata.image || defaultImage}" 
+                             alt="${metadata.title}"
+                             onerror="this.src='${defaultImage}'">
+                    </div>
+                    <h1 class="post-title">${metadata.title}</h1>
+                    <p class="post-date">\u{1F4C5} ${metadata.date}</p>
+                    ${metadata.description ? `<p class="post-description">${metadata.description}</p>` : ''}
+                `;
+
+                // Inizializza Giscus dopo che il contenuto è stato caricato
+                const giscusScript = document.createElement('script');
+                giscusScript.src = 'https://giscus.app/client.js';
+                giscusScript.setAttribute('data-repo', 'Loweredgames/Loweredgames.github.io');
+                giscusScript.setAttribute('data-repo-id', 'R_kgDONtpJlw');
+                giscusScript.setAttribute('data-category', 'General');
+                giscusScript.setAttribute('data-category-id', 'DIC_kwDONtpJl84Cnriq');
+                giscusScript.setAttribute('data-mapping', 'specific');
+                giscusScript.setAttribute('data-term', metadata.title);
+                giscusScript.setAttribute('data-strict', '0');
+                giscusScript.setAttribute('data-reactions-enabled', '1');
+                giscusScript.setAttribute('data-emit-metadata', '0');
+                giscusScript.setAttribute('data-input-position', 'top');
+                giscusScript.setAttribute('data-theme', 'preferred_color_scheme');
+                giscusScript.setAttribute('data-lang', 'it');
+                giscusScript.setAttribute('crossorigin', 'anonymous');
+                document.getElementById('giscus-container').appendChild(giscusScript);
+            }
+
+            // Carica il contenuto del changelog
+            fetch(`posts-changelog/${file}`)
+                .then(response => {
+                    if (!response.ok) throw new Error(`Changelog non trovato (${response.status})`);
+                    return response.text();
+                })
+                .then(text => {
+                    // Rimuovi solo i tag HTML pericolosi
+                    text = text.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+                    let content = marked.parse(text);
+                    
+                    // Carica le versioni di manutenzione se presenti
+                    if (metadata && metadata.maintenanceVersions) {
+                        // Filtra solo le versioni visibili
+                        const visibleVersions = metadata.maintenanceVersions.filter(v => v.visible);
+                        
+                        const maintenancePromises = visibleVersions.map(v => 
+                            fetch(`posts-changelog/${v.file}`)
+                                .then(res => res.text())
+                                .then(maintenanceText => marked.parse(maintenanceText))
+                        );
+
+                        Promise.all(maintenancePromises)
+                            .then(maintenanceContents => {
+                                const maintenanceHtml = maintenanceContents.join('<hr class="maintenance-separator">');
+                                document.getElementById('changelog').innerHTML = content + maintenanceHtml;
+                            });
+                    } else {
+                        document.getElementById('changelog').innerHTML = content;
+                    }
+                })
+                .catch(error => {
+                    // Gestione degli errori
+                    console.error('Errore:', error);
+                    document.getElementById('changelog').innerHTML = `
+                        <div class="error-message">
+                            <img src="https://placehold.co/150x150/2d2d2d/ff0000/png?text=⚠" alt="Error">
+                            <h2>Errore nel caricamento del changelog</h2>
+                            <p>${error.message}</p>
+                            <a href="index.html" class="error-button">Torna alla home</a>
+                        </div>
+                    `;
+                });
+        } else {
+            // Messaggio se nessun changelog è selezionato
+            document.getElementById('changelog').innerHTML = '<h2>Nessun changelog selezionato</h2>';
+        }
+
+    </script>
+</body>
+</html>
