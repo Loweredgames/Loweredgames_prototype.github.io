@@ -1,0 +1,12 @@
+{
+  "title": "Prototype",
+  "remainingCapacity": "19997",
+  "totalItems": "3",
+  "totalItemsAccuracy": "EXACT",
+  "timeInfo": {
+    "startMs": "1635530547000",
+    "endMs": "1651401134000",
+    "creationMs": "1635530542000",
+    "newestOperationTimeMs": "1651401134874"
+  }
+}

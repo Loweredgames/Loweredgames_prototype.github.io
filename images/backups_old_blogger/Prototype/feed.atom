@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:blogger='http://schemas.google.com/blogger/2018'>
+  <id>tag:blogger.com,1999:blog-8627845943266134099</id>
+  <title>Prototype</title>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8627845943266134099.post-2307016821964808280</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Loweredgames</name>
+      <uri>https://lggamesdevchangelog.blogspot.com/</uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Guida e Informazioni</title>
+    <content type='html'>&lt;p&gt;&lt;span style="font-family: arial; font-size: medium;"&gt;&lt;b&gt;Informazioni&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial; font-size: medium;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;span style="font-family: arial; font-size: medium;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPshoTdr3Ff4I_sGYTeF1J3U7QqaD5m41EpN_7Ule8xP0624b17CnAF16FKSxQTC0Fyu8tpREgyJ9p6KMpeh0IchV8M17m0NvG7vRF7UAUTHhgj7WDNZuPIqN0ed3B4YB-HtJBrwdTQD1YI_ei19TcNbV7K8fIrpo7lUdYL_B-Kt5p0t-avXdW4tgK/s1920/2022-05-01_12.31.45.png" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="991" data-original-width="1920" height="330" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPshoTdr3Ff4I_sGYTeF1J3U7QqaD5m41EpN_7Ule8xP0624b17CnAF16FKSxQTC0Fyu8tpREgyJ9p6KMpeh0IchV8M17m0NvG7vRF7UAUTHhgj7WDNZuPIqN0ed3B4YB-HtJBrwdTQD1YI_ei19TcNbV7K8fIrpo7lUdYL_B-Kt5p0t-avXdW4tgK/w640-h330/2022-05-01_12.31.45.png" width="640" /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial;"&gt;Le mappe&amp;nbsp;&lt;/span&gt;&lt;span style="background-color: white;"&gt;&lt;span style="font-family: arial;"&gt;Prototype&lt;/span&gt; &lt;span style="font-family: arial;"&gt;servono come test e sono sempre aggiornate&amp;nbsp;alla versione piu stabile. in questo sito web le pagine sono delle bozze e vengono utilizzate solo a scopo dimostrativo. il sistema delle versioni utilizza il diff che in informatica significa:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;In&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;a _istranslated="1" href="https://en.wikipedia.org/wiki/Computing" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; color: #0645ad; font-family: sans-serif; font-size: 14px; text-decoration-line: none;" title="Computing"&gt;informatica&lt;/a&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;, l'utilità&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;b _istranslated="1" style="color: #202122; font-family: sans-serif; font-size: 14px;"&gt;diff&lt;/b&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;è uno strumento&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;a _istranslated="1" class="mw-redirect" href="https://en.wikipedia.org/wiki/Data_comparison" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; color: #0645ad; font-family: sans-serif; font-size: 14px; text-decoration-line: none;" title="Data comparison"&gt;di confronto dei dati&lt;/a&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;che calcola e visualizza le differenze tra il contenuto dei file. A differenza delle nozioni&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;a _istranslated="1" href="https://en.wikipedia.org/wiki/Edit_distance" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; color: #0645ad; font-family: sans-serif; font-size: 14px; text-decoration-line: none;" title="Edit distance"&gt;di distanza di modifica&lt;/a&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;utilizzate per altri scopi, diff è orientato alla linea piuttosto che al carattere, ma è come la&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;a _istranslated="1" href="https://en.wikipedia.org/wiki/Levenshtein_distance" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; color: #0645ad; font-family: sans-serif; font-size: 14px; text-decoration-line: none;" title="Levenshtein distance"&gt;distanza di Levenshtein&lt;/a&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;in quanto cerca di determinare il più piccolo insieme di eliminazioni e inserimenti per creare un file dall'altro. L'utilità visualizza le modifiche in uno dei diversi formati standard, in modo che sia gli esseri umani che i computer possano analizzare le modifiche e utilizzarle per&lt;/span&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;a _istranslated="1" href="https://en.wikipedia.org/wiki/Patch_(Unix)" style="background-attachment: initial; background-clip: initial; background-image: none; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; color: #0645ad; font-family: sans-serif; font-size: 14px; text-decoration-line: none;" title="Patch (Unix)"&gt;l'applicazione di patch&lt;/a&gt;&lt;span face="sans-serif" style="background-color: white; color: #202122; font-size: 14px;"&gt;. -Wikipedia&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;&lt;span style="font-family: arial;"&gt;nome-progetto:BUILDING_PROTOTYPE:giorno,mese,anno,diff_(quante volte sei entrato a modificare,orario della compilazione iniziale,orario&amp;nbsp;&lt;/span&gt;&lt;span style="font-family: arial;"&gt;della compilazione finale&lt;/span&gt;&lt;span style="font-family: arial;"&gt;(aggiungerlo alla fine&lt;/span&gt;&lt;span style="font-family: arial;"&gt;)&lt;/span&gt;&lt;span style="font-family: arial;"&gt;,commit Github&lt;/span&gt;&lt;span style="font-family: arial;"&gt;_&lt;/span&gt;&lt;span style="font-family: arial;"&gt;Branch&lt;/span&gt;&lt;span style="font-family: arial;"&gt;,(es.&lt;/span&gt;&lt;span style="font-family: arial;"&gt;diff:020201025afe25a&lt;/span&gt;&lt;span face="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace"&gt;e&lt;/span&gt;&lt;span style="font-family: arial;"&gt;_&lt;/span&gt;&lt;span style="font-family: arial;"&gt;Branch&lt;/span&gt;&lt;span style="font-family: arial;"&gt;).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial; font-size: medium;"&gt;&lt;b&gt;Categorie:&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal" style="background-color: white;"&gt;&lt;span style="font-family: arial;"&gt;&lt;b style="font-style: italic; text-decoration-line: underline;"&gt;textures and resources:&lt;/b&gt;&amp;nbsp;tutte le texture che vengono dal resources pack&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal" style="background-color: white;"&gt;&lt;span style="font-family: arial;"&gt;&lt;b&gt;&lt;i&gt;&lt;u&gt;worlds and maps:&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&amp;nbsp;cambiamenti&amp;nbsp;del mondo e le mappe&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal" style="background-color: white;"&gt;&lt;span style="font-family: arial;"&gt;&lt;u style="font-style: italic; font-weight: bold;"&gt;dimostrazione: &lt;/u&gt;dimostrazione o concept art&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal" style="background-color: white;"&gt;&lt;span style="font-family: arial;"&gt;&lt;i&gt;altre Categorie...&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal" style="background-color: white;"&gt;&lt;span style="color: red; font-family: arial;"&gt;&lt;i&gt;Avviso della Versione&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal" style="background-color: white;"&gt;&lt;span style="color: red; font-family: arial;"&gt;attention this map is a prototype and therefore some features are still in the design and testing phase, the bugs are all invalid.&lt;/span&gt;&lt;/p&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2022-04-29T16:37:07.556Z</blogger:created>
+    <published>2021-10-01T17:48:00.012Z</published>
+    <updated>2023-08-21T21:21:27.584Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-8627845943266134099' term='mappa'/>
+    <category scheme='tag:blogger.com,1999:blog-8627845943266134099' term='textures and resources'/>
+    <category scheme='tag:blogger.com,1999:blog-8627845943266134099' term='github'/>
+    <category scheme='tag:blogger.com,1999:blog-8627845943266134099' term='video dimostativo'/>
+    <category scheme='tag:blogger.com,1999:blog-8627845943266134099' term='concept art'/>
+    <category scheme='tag:blogger.com,1999:blog-8627845943266134099' term='changelog'/>
+    <blogger:filename>/2022/04/guida-e-informazioni.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8627845943266134099.post-2640429906625171886</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Loweredgames</name>
+      <uri>https://lggamesdevchangelog.blogspot.com/</uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Infernicus Maps</title>
+    <content type='html'/>
+    <blogger:metaDescription/>
+    <blogger:created>2023-08-21T20:54:42.946Z</blogger:created>
+    <published>2023-08-21T20:56:00.003Z</published>
+    <updated>2023-08-21T20:59:11.524Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2023/08/infernicus.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8627845943266134099.post-2803139624231290240</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Loweredgames</name>
+      <uri>https://lggamesdevchangelog.blogspot.com/</uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Ghost of Japan Maps</title>
+    <content type='html'/>
+    <blogger:metaDescription/>
+    <blogger:created>2023-08-21T21:06:59.666Z</blogger:created>
+    <published>2023-08-21T21:10:00.002Z</published>
+    <updated>2023-08-21T21:10:51.398Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2023/08/ghost-of-japan-maps.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8627845943266134099.post-4327123034450066268</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Loweredgames</name>
+      <uri>https://lggamesdevchangelog.blogspot.com/</uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>(nome mappa) Maps</title>
+    <content type='html'>&lt;p style="text-align: center;"&gt;&lt;b style="text-align: left;"&gt;&lt;span style="font-family: arial;"&gt;Categoria:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial;"&gt;Immagini e video&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial;"&gt;descrizione e altro delle cose da fare&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial;"&gt;&lt;span style="color: red;"&gt;Download:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial;"&gt;può&amp;nbsp;essere anche globale ma solo in fondo alla pagina&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style="text-align: left;"&gt;&lt;li&gt;&lt;span style="font-family: arial;"&gt;(aggiungere versione del&amp;nbsp;Branch e commit nel tag e nel nome in Github&lt;/span&gt;&lt;span style="font-family: arial;"&gt;)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: arial;"&gt;(aggiungere versione del&amp;nbsp;Branch e commit nel tag e nel nome in Github)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: arial;"&gt;ecc.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial;"&gt;e poi si ripete&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: arial;"&gt;&lt;i&gt;esempio&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white;"&gt;&lt;span style="font-family: arial;"&gt;functions and datapack:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;&lt;b style="background-color: white;"&gt;&lt;/b&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;b style="background-color: white;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9P2fX8XyxCdjcfmikYF60FP0mP8SMwQA6R28lccNoSl-zbNdtj00ADu1BUgqtmCCCSpBuFYmZ5J2MEqpuXFPN2wNYhbNyRxn0OuV76c6ihm9uj1rN49pHgzMAh7xpyvHRJ1khUPO_fku6ByB6w6LGlUygUCQsAYqwRRM3_CL5AtRf4WyQWNssoNDS/s1920/2022-04-29_20.33.26.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="991" data-original-width="1920" height="330" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9P2fX8XyxCdjcfmikYF60FP0mP8SMwQA6R28lccNoSl-zbNdtj00ADu1BUgqtmCCCSpBuFYmZ5J2MEqpuXFPN2wNYhbNyRxn0OuV76c6ihm9uj1rN49pHgzMAh7xpyvHRJ1khUPO_fku6ByB6w6LGlUygUCQsAYqwRRM3_CL5AtRf4WyQWNssoNDS/w640-h330/2022-04-29_20.33.26.png" width="640" /&gt;&lt;/a&gt;&lt;/b&gt;&lt;/div&gt;&lt;b style="background-color: white;"&gt;&lt;br /&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white; color: #666666;"&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white; color: #666666;"&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white; color: #666666;"&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white; color: #666666;"&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white; color: #666666;"&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white; color: #666666;"&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white; color: #666666;"&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white; color: #666666;"&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;b style="background-color: white;"&gt;&lt;span style="font-family: arial;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;&lt;span style="background-color: white;"&gt;&lt;span style="font-family: arial;"&gt;- aggiungere una funzione che ti fa saltare sempre&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;&lt;span style="color: red; font-family: arial;"&gt;Download:&lt;/span&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;&lt;/p&gt;&lt;ol style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://github.com/Loweredgames/Prototype/releases/tag/Redstonecraft"&gt;Release Redstonecraft · Loweredgames/Prototype (github.com)&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2021-10-29T15:51:22.139Z</blogger:created>
+    <published>2021-10-01T16:22:00.021Z</published>
+    <updated>2023-08-21T20:59:20.242Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-8627845943266134099' term='changelog'/>
+    <blogger:filename>/2021/10/prototype-nome-mappadescrizione-e.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8627845943266134099.post-5849490478184680188</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Loweredgames</name>
+      <uri>https://lggamesdevchangelog.blogspot.com/</uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Mangrove Swamp Parkour</title>
+    <content type='html'>&lt;p&gt;&amp;nbsp;Guardare Github:&lt;a href="https://github.com/Loweredgames/Mangrove-Swamp-Parkour"&gt;Loweredgames/Mangrove-Swamp-Parkour: .... (github.com)&lt;/a&gt;&lt;/p&gt;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2023-08-21T21:20:11.640Z</blogger:created>
+    <published>2023-08-21T21:21:00.001Z</published>
+    <updated>2023-08-21T21:23:08.979Z</updated>
+    <blogger:location/>
+    <category scheme='tag:blogger.com,1999:blog-8627845943266134099' term='github'/>
+    <blogger:filename>/2023/08/mangrove-swamp-parkour.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8627845943266134099.post-6933024407648542075</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Loweredgames</name>
+      <uri>https://lggamesdevchangelog.blogspot.com/</uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Wall Parkour Maps</title>
+    <content type='html'/>
+    <blogger:metaDescription/>
+    <blogger:created>2023-08-21T20:42:58.810Z</blogger:created>
+    <published>2023-08-21T20:43:00.003Z</published>
+    <updated>2023-08-21T20:55:02.560Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2023/08/wall-parkour.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-8627845943266134099.post-7512471426852114147</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>Loweredgames</name>
+      <uri>https://lggamesdevchangelog.blogspot.com/</uri>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Redstonecraft Maps</title>
+    <content type='html'>&lt;p&gt;&lt;/p&gt;&lt;div style="text-align: center;"&gt;&lt;b&gt;Categoria: worlds and maps&lt;/b&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;Capitolo 6 Laboratorio&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;object class="BLOG_video_class" contentid="9c6a8df4350df69d" height="266" id="BLOG_video-9c6a8df4350df69d" width="621"&gt;&lt;/object&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;Capitolo 10 stanza virtuale&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/a/AVvXsEik_KUwk86ZIqK5oflQyM8UMBoEQjHRPxJtf9ZmpBgSYMGQO4PU60pr2G82eo3MuEdGCnYhWDPIQ3zYVGYDuPX7Ao9PbetE_XXFpdt1ot4uYjw_JOzwSIVJIOzkNEOZZaaSl7vnAioheImDFaOTVGv16eYpsIibEqQ73kqSXLMCNyNx2Q-G-jAvFDu1=s1920" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="991" data-original-width="1920" height="330" src="https://blogger.googleusercontent.com/img/a/AVvXsEik_KUwk86ZIqK5oflQyM8UMBoEQjHRPxJtf9ZmpBgSYMGQO4PU60pr2G82eo3MuEdGCnYhWDPIQ3zYVGYDuPX7Ao9PbetE_XXFpdt1ot4uYjw_JOzwSIVJIOzkNEOZZaaSl7vnAioheImDFaOTVGv16eYpsIibEqQ73kqSXLMCNyNx2Q-G-jAvFDu1=w640-h330" width="640" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&amp;nbsp;&lt;div class="separator" style="clear: both; text-align: left;"&gt;&lt;object class="BLOG_video_class" contentid="30e621db4b5ba530" height="351" id="BLOG_video-30e621db4b5ba530" width="664"&gt;&lt;/object&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;una stanza che appare nel capitolo 10.&amp;nbsp;</content>
+    <blogger:metaDescription/>
+    <blogger:created>2021-10-29T18:01:47.351Z</blogger:created>
+    <published>2021-10-29T18:04:00.016Z</published>
+    <updated>2023-08-21T20:54:56.280Z</updated>
+    <blogger:location/>
+    <category/>
+    <blogger:filename>/2021/10/prototype-capitolo-10-stanza-virtuale.html</blogger:filename>
+    <link/>
+    <enclosure/>
+    <blogger:trashed/>
+  </entry>
+</feed>
