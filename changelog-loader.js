@@ -4,12 +4,12 @@ window.changelogList = [
 
 // Post Rilasciati
     {
-        title: 'JE-1.21>1.21.5-7.0.1-Voidblock:7.0.1',
-        date: '09.07.2025',
+        title: 'Redstonecraft',
+        date: '29.10.2021',
         image: 'images/posts/Voidblock/7.0.1.png',
-        file: 'Voidblock/Voidblock7.0.1.md',
+        file: 'prototype/redstonecraft.md',
         tags: ['stable','maintenance'],
-        visible: false
+        visible: true
     },
     {
         title: 'JE-1.20.6-5.3.X-Skyblock_Classic_Edition:5.3.X_LTS Maintenance Update - LTS',
